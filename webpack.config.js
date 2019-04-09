@@ -34,6 +34,10 @@ module.exports = [{
       test: /\.ts$/, 
       loader: 'ts-loader',
       options: {}
+    },
+    {
+      test: /\.svg$/,
+      loader: 'url-loader'
     }]
   },
   bail: true
